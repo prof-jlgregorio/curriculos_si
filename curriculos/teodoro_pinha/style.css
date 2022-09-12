@@ -1,0 +1,45 @@
+.margem-info{
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+.margem-descricao{
+    margin-left: 25px;
+}
+
+.box-title{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: rgb(240, 196, 0);
+}
+
+img#photo{
+    border-radius: 50%;
+    border: thick solid #fff;
+    box-shadow: 0 0 5px lightgray;
+    margin-top: 65px;
+    margin-bottom: 15px;
+}
+
+#dot-preto {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: black;
+    margin: 4px;
+    float: left;
+}
+
+#dot-branco {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 4px;
+    float: left;
+}
