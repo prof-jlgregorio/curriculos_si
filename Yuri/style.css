@@ -1,0 +1,88 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e9ecef; /* Light gray background */
+    color: #343a40;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #0056b3; /* Darker blue for header */
+    color: #ffffff;
+    padding: 2rem 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 3.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.5rem;
+    opacity: 0.9;
+}
+
+.container {
+    max-width: 960px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.card {
+    border: none;
+    border-radius: 0.75rem;
+    box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-title {
+    color: #0056b3; /* Matching header blue */
+    font-weight: 700;
+    border-bottom: 3px solid #007bff; /* Brighter blue for emphasis */
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+    font-size: 1.8rem;
+}
+
+.list-unstyled li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.list-unstyled li i {
+    margin-right: 12px;
+    color: #007bff;
+    font-size: 1.2rem;
+}
+
+.text-muted {
+    color: #6c757d !important;
+    font-style: italic;
+}
+
+.job h3, .degree h3 {
+    color: #495057;
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+}
+
+.skills h4 {
+    color: #0056b3;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+}
+
+footer {
+    background-color: #343a40; /* Dark gray for footer */
+    color: #ffffff;
+    padding: 1.5rem 0;
+    font-size: 0.95rem;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
